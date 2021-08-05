@@ -3,7 +3,7 @@ Description=Ghidra Server
 After=network.target
 
 [Service]
-ExecStart=/usr/local/ghidra/bin/ghidra_server.sh
+ExecStart=/usr/local/bin/ghidra_server.sh
 Restart=always
 
 [Install]
